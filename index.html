@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My App – Official Page</title>
+    <meta name="description" content="Official page of the mobile application available on Amazon Appstore." />
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f6f7f9;
+            color: #222;
+        }
+
+        header {
+            background: #1f2937;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        .download {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .download a {
+            background: #ff9900;
+            color: #000;
+            padding: 14px 22px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .screenshots img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            margin-top: 60px;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="screenshot/logo.png" alt="App Logo"
+            style="width:120px;height:auto;margin-bottom:15px;border-radius:24px;" />
+        <h1>My Mobile App</h1>
+        <p>Official application available on Amazon Appstore</p>
+    </header>
+
+    <div class="container">
+
+        <div class="download">
+            <a href="https://www.amazon.com/gp/product/B0G6HZCLZT" target="_blank">
+                Download on Amazon Appstore
+            </a>
+        </div>
+
+        <h2>Screenshots</h2>
+        <div class="screenshots">
+            <img src="screenshot/screen1.png" alt="App Screenshot 1" />
+            <img src="screenshot/screen2.png" alt="App Screenshot 2" />
+            <img src="screenshot/screen3.png" alt="App Screenshot 3" />
+            <img src="screenshot/screen4.png" alt="App Screenshot 4" />
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2025 – Independent Developer</p>
+        <p>Contact: your-email@example.com</p>
+    </footer>
+
+</body>
+
+</html>
